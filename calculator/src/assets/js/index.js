@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './page/App';
 import * as serviceWorker from './serviceWorker';
+import { Provider, connect } from 'react-redux';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
