@@ -1,4 +1,5 @@
 import { createStore } from 'redux';
+import test from './reducers/test';
 
 const initialState = {
 	value: 0
