@@ -1,1 +1,32 @@
 @charset "utf-8";
+
+#root {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.calculator {
+	width: 300px;
+	height: 455px;
+	border-radius: 8px;
+	border: 1px solid #696868;
+	&-result {
+		height: 80px;
+		background: #2e2c2c;
+		border-radius: 6px 6px 0 0;
+		&__inner {
+			height: 100%;
+			padding: 0 10px;
+			span {
+				height: 100%;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				font-size: 36px;
+				color: #ffffff;
+			}
+		}
+	}
+}
