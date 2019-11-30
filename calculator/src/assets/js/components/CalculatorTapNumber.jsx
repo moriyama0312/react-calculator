@@ -4,9 +4,9 @@ class CalculatorTapNumber extends React.Component {
 	render() {
 		return (
 			<ul className="calculator-tap__numbers">
-				<li className="number">AC</li>
-				<li className="number">+/-</li>
-				<li className="number">%</li>
+				<li className="number others">AC</li>
+				<li className="number others">+/-</li>
+				<li className="number others">%</li>
 				<li className="number">7</li>
 				<li className="number">8</li>
 				<li className="number">9</li>
@@ -16,7 +16,7 @@ class CalculatorTapNumber extends React.Component {
 				<li className="number">1</li>
 				<li className="number">2</li>
 				<li className="number">3</li>
-				<li className="number">0</li>
+				<li className="number double-column">0</li>
 				<li className="number">.</li>
 			</ul>
 		);
