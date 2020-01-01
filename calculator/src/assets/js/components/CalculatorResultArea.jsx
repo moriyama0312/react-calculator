@@ -5,7 +5,7 @@ class CalculatorResultArea extends React.Component {
 		return (
 			<div className="calculator-result">
 				<div className="calculator-result__inner">
-					<span>0</span>
+					<span>{this.props.displayValue}</span>
 				</div>
 			</div>
 		);

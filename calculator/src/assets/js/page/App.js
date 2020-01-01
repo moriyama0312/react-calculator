@@ -7,7 +7,9 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="calculator">
-				<CalculatorResultArea />
+				<CalculatorResultArea
+					displayValue={this.props.value}
+				/>
 				<CalculatorTapArea />
 			</div>
 		);

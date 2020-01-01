@@ -30,11 +30,9 @@
 		}
 	}
 	&-tap {
-		form {
-			display: grid;
-			grid-template-rows: 375px;
-			grid-template-columns: 75% 25%;
-		}
+		display: grid;
+		grid-template-rows: 375px;
+		grid-template-columns: 75% 25%;
 		ul {
 			list-style: none;
 			padding: 0;

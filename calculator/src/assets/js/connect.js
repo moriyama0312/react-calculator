@@ -4,6 +4,7 @@ import actionCreators from './actions/actionCreator';
 
 function mapStateToProps(state) {
 	return {
+		value: state.monitorValue
 	};
 }
 function mapDispatchToProps(dispatch) {
