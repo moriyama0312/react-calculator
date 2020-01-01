@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-import test from './reducers/test';
+import calculateReducer from './reducers/calculate';
 
 const initialState = {
 	monitorValue: 0,
@@ -8,6 +8,6 @@ const initialState = {
 	operator: ''
 }
 
-const store = createStore(test, initialState);
+const store = createStore(calculateReducer, initialState);
 
 export default store;

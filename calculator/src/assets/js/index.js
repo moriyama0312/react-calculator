@@ -1,22 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './page/App';
+import AppContainer from './connect';
 import * as serviceWorker from './serviceWorker';
 import store from './store';
-import { Provider, connect } from 'react-redux';
-
-function mapStateToProps(state) {
-	return {
-	};
-}
-function mapDispatchToProps(dispatch) {
-	return {
-	};
-}
-const AppContainer = connect(
-	mapStateToProps,
-	mapDispatchToProps
-)(App);
+import { Provider } from 'react-redux';
 
 ReactDOM.render(
 	<Provider store={store}>

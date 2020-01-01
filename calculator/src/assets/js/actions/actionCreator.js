@@ -1,7 +1,8 @@
 import actions from './action';
 
-function test() {
+export function displayValue(value) {
 	return {
-
+		type: actions.display,
+		value
 	};
 }
