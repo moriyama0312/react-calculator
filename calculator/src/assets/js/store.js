@@ -2,7 +2,10 @@ import { createStore } from 'redux';
 import test from './reducers/test';
 
 const initialState = {
-	value: 0
+	monitorValue: 0,
+	inputValue: 0,
+	saveValue: 0,
+	operator: ''
 }
 
 const store = createStore(test, initialState);
