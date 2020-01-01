@@ -6,10 +6,8 @@ class CalculatorTapArea extends React.Component {
 	render() {
 		return (
 			<div className="calculator-tap">
-				<form>
-					<CalculatorTapNumber />
-					<CalculatorTapOperator />
-				</form>
+				<CalculatorTapNumber />
+				<CalculatorTapOperator />
 			</div>
 		);
 	}
