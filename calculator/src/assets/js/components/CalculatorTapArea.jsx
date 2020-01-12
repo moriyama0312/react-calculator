@@ -6,7 +6,9 @@ class CalculatorTapArea extends React.Component {
 	render() {
 		return (
 			<div className="calculator-tap">
-				<CalculatorTapNumber />
+				<CalculatorTapNumber
+					tapNum={this.props.tapNum}
+				/>
 				<CalculatorTapOperator />
 			</div>
 		);

@@ -3,7 +3,7 @@ function calculateReducer(state, action) {
 		case 'DISPLAY_VALUE':
 			return Object.assign({}, state, {
 				inputValue: action.value,
-				monitorValue: this.inputValue
+				monitorValue: state.inputValue
 			});
 		default:
 			return state

@@ -10,7 +10,9 @@ class App extends React.Component {
 				<CalculatorResultArea
 					displayValue={this.props.value}
 				/>
-				<CalculatorTapArea />
+				<CalculatorTapArea
+					tapNum={this.props.tapNum}
+				/>
 			</div>
 		);
 	}

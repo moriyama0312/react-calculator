@@ -8,6 +8,7 @@ function mapStateToProps(state) {
 	};
 }
 function mapDispatchToProps(dispatch) {
+	console.log(actionCreators);
 	return {
 		tapNum(number) {
 			dispatch(actionCreators.displayValue(number));
